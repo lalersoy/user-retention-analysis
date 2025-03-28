@@ -28,3 +28,29 @@ This SaaS app helps users manage chronic conditions (e.g., hypertension, diabete
 - Provide actionable recommendations for product improvement
 
 ---
+
+## Folder Structure
+
+/user-retention-analysis/
+├── code/
+│   └── generate_data.ipynb
+├── data/
+│   ├── users.csv
+│   ├── events.csv
+├── visualisations/
+│   ├── retention_by_plan.png
+│   ├── behavior_by_event_type.png
+├── README.md
+
+
+### D30 Retention by Plan Type
+
+<img src="visualisations/retention_by_plan.png" width="500"/>
+
+> Premium users had ~30% higher D30 retention than free users.
+
+### Behavioral Patterns: Retained vs. Churned Users
+
+<img src="visualisations/behavior_by_event_type.png" width="600"/>
+
+> Goal-setting and scheduling a consult strongly correlate with long-term retention.
