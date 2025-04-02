@@ -57,3 +57,23 @@ This SaaS app helps users manage chronic conditions (e.g., hypertension, diabete
 <img src="visualisations/behavior_by_event_type.png" width="600"/>
 
 > **Goal-setting and scheduling a consult strongly correlate with long-term retention.**
+
+---
+
+## SQL-Based Product KPIs
+
+In addition to exploratory analysis in Python, this project includes a full SQL pipeline to analyze key product metrics and user behavior using a simulated PostgreSQL database.
+
+See `sql/retention_kpis.sql` for all queries. Includes:
+
+| Query | Description |
+|-------|-------------|
+| **Retention Flags** | D7 and D30 retention calculated per user |
+| **Activation Funnel** | Tracks how many users completed key early actions |
+| **Feature Adoption** | Compares usage across `free` and `premium` plans |
+| **Cohort Retention** | Tracks retention by signup month |
+| **Engagement Metrics** | Identifies power users by event frequency and diversity |
+
+These queries were run and tested in **pgAdmin 4** with data imported from the generated `users.csv` and `events.csv`.
+For more, please refer to: [`sql/README.md`](sql/README.md)
+
