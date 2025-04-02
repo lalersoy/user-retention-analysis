@@ -31,6 +31,7 @@ This SaaS app helps users manage chronic conditions (e.g., hypertension, diabete
 
 ## Folder Structure
 
+```text
 /user-retention-analysis/
 ├── code/
 │   └── generate_data.ipynb
@@ -41,7 +42,7 @@ This SaaS app helps users manage chronic conditions (e.g., hypertension, diabete
 │   ├── retention_by_plan.png
 │   ├── behavior_by_event_type.png
 ├── README.md
-
+```
 
 ### D30 Retention by Plan Type
 
