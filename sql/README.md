@@ -4,7 +4,7 @@ This folder contains SQL scripts for generating key product analytics insights f
 
 All queries assume the presence of two tables:
 - `users` – user-level data (user_id, signup_date, plan_type, channel)
-- `events` – timestamped event logs (user_id, event_type, timestamp)
+- `events` – timestamped event logs (user_id, timestamp, event_type)
 
 ---
 
