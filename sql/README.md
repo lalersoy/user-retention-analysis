@@ -26,7 +26,7 @@ All queries assume the presence of two tables:
 ## Notes
 
 - Designed to be compatible with PostgreSQL (tested in pgAdmin 4)
-- Simulated event logs generated in the main notebook (`/notebooks/`)
+- Simulated event logs generated in the main notebook (`/code/`)
 - Can be adapted to BigQuery or Snowflake with minor syntax tweaks
 
 ---
